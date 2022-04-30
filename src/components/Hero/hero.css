@@ -23,8 +23,9 @@
 .hero-title {
     font-size: 89px;
     text-align: center;
-    font-family: 'Mokoto';
+    font-family: 'Roboto';
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .hero-description {
