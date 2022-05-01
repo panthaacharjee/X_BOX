@@ -108,7 +108,7 @@
         margin-top: -40px;
     }
     .hero {
-        background: url(../../assets/background.png);
+        /* background: url(../../assets/background.png); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -122,7 +122,7 @@
         text-align: center;
     }
     .hero {
-        background: url(../../assets/background.png);
+        /* background: url(../../assets/background.png); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -226,4 +226,51 @@
     width: 55px;
     margin-left: -80px;
     margin-right: 30px;
+}
+
+
+/* ================================= 
+    Hero Section All Background 
+   ================================= */ 
+
+@media (max-width : 820px) {
+    .hero {
+        background: url(../../assets/Background_Hero/iPadAir.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+@media (max-width : 414px) {
+    .hero {
+        background: url(../../assets/Background_Hero/iPhoneXR.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+@media (max-width : 412px) {
+    .hero {
+        background: url(../../assets/Background_Hero/SamsungGalaxyS20Ultra.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+@media (max-width : 390px) {
+    .hero {
+        background: url(../../assets/Background_Hero/iPhone12pro.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+
+@media (max-width : 360px) {
+    .hero {
+        background: url(../../assets/Background_Hero/SamsungGalaxyS8.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
 }
