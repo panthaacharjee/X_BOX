@@ -241,6 +241,25 @@
         background-size: 100% 100vh;
     }
 }
+@media (max-width:750px) {
+
+    .hero {
+        background: url(../../assets/Background_Hero/SamsungGalaxyFold.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+@media (max-width:750px) {
+
+    .hero {
+        background: url(../../assets/background_mobile_XR.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+
 @media (max-width : 414px) {
     .hero {
         background: url(../../assets/Background_Hero/iPhoneXR.png);
@@ -269,6 +288,14 @@
 @media (max-width : 360px) {
     .hero {
         background: url(../../assets/Background_Hero/SamsungGalaxyS8.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+}
+@media (max-width : 320px) {
+    .hero {
+        background: url(../../assets/Background_Hero/iPhoneSE.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100vh;
